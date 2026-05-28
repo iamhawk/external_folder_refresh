@@ -1,0 +1,12 @@
+/vendor/
+/node_modules/
+/build/
+/dist/
+/.idea/
+/.vscode/
+*.key
+*.pem
+*.csr
+*.crt
+*.tar.gz
+.DS_Store

@@ -1,0 +1,31 @@
+#external-folder-refresh-button {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 5000;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 18px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--color-primary-element);
+    color: var(--color-primary-element-text);
+    font-weight: 600;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+
+#external-folder-refresh-button:hover {
+    filter: brightness(1.05);
+}
+
+#external-folder-refresh-button:disabled {
+    opacity: 0.72;
+    cursor: wait;
+}
+
+#external-folder-refresh-button.external-folder-refresh-button-busy {
+    padding-left: 20px;
+    padding-right: 20px;
+}

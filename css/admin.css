@@ -1,0 +1,43 @@
+.external-folder-refresh-admin {
+    max-width: 920px;
+}
+
+.external-folder-refresh-field {
+    margin: 18px 0;
+}
+
+.external-folder-refresh-field label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.external-folder-refresh-field textarea,
+.external-folder-refresh-field input {
+    width: 100%;
+    max-width: 680px;
+}
+
+.external-folder-refresh-grid {
+    display: grid;
+    grid-template-columns: minmax(260px, 1fr) minmax(260px, 1fr);
+    gap: 16px 24px;
+    max-width: 920px;
+}
+
+.external-folder-refresh-help {
+    color: var(--color-text-maxcontrast);
+    margin-top: 6px;
+}
+
+#external-folder-refresh-admin-status {
+    margin-left: 12px;
+}
+
+.external-folder-refresh-admin-status-ok {
+    color: var(--color-success);
+}
+
+.external-folder-refresh-admin-status-error {
+    color: var(--color-error);
+}
